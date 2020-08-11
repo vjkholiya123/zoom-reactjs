@@ -1,3 +1,20 @@
+How to start the project:
+1. Type `git clone https://github.com/vjkholiya123/zoom-reactjs.git` in your terminal.
+2. Open the project using VSCode.
+3. Run these commands:
+
+   `npm install`
+   
+   `npm run start`
+ 4. Go inside src/ZoomCall.js and place your Zoom API Key in ZoomMtg.join method settings in line 33.
+ 
+ How to use project:
+ 1. Firstly create JWT token and a new meeting by clicking on button `Generate JWT Token and Create Meeting`.
+ 2. Once the token and meeting details is fetched from the Django server details will be showed in the screen and Join Meeting button will be enabled.
+ 3. Click `Join Meeting` button to join the meeting that was just created. 
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
